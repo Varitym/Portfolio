@@ -15,7 +15,29 @@ body{
 header{
     font-size: 30px;
 }
+
+#content{
+    display: grid;
+}
+
 .navbar{
-    display: inline;
-    list-style: none;
+    padding: 5px;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+
+
+}
+li{
+    padding: 3px;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: red;
 }
