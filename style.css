@@ -11,17 +11,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    background-attachment: fixed;
+
 }
 header{
-    font-size: 30px;
+
+}
+section{
+    height: 1024px;
+}
+#main{
+
+}
+#about{
+    background-color: #53B64B;
 }
 
 #content{
     display: grid;
-}
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    margin: 0 auto;
 
+}
+#name{
+    grid-column: 6/11;
+    grid-row: 3/10;
+    font-size: 150px;
+}
 .navbar{
-    padding: 5px;
+    grid-column: 1 / 11;
+    font-size: 15px;
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid #b5b3ae;
+    text-align: right;
+    padding: 10px;
 
 }
 ul{
@@ -31,7 +56,7 @@ ul{
 
 }
 li{
-    padding: 3px;
+    padding: 15px;
 }
 a{
     color: white;
