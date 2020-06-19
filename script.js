@@ -5,3 +5,6 @@ const displayMobileNav = () => {
   hamburger.classList.toggle('open');
 }
 
+const enlargeProject = (element) => {
+  element.classList.toggle('project-modal')
+}
